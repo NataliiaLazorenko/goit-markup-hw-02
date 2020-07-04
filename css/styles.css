@@ -164,3 +164,33 @@
 .footer .title {
   color: var(--title-dark-theme-color);
 }
+
+/* Сторінка Портфоліо */
+
+.portfolio-section .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+.portfolio-section .text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-light-theme-color);
+}
+
+.portfolio-section .button {
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio-section .button:focus,
+.portfolio-section .button:hover,
+.portfolio-section .button:active {
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color);
+}
